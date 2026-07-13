@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="長泉町で開催する少人数の生成AI活用セミナー。自社で最初にAIへ任せる仕事を1つ決める、実践型の2時間です。">
+  <meta name="theme-color" content="#151816">
+  <meta property="og:title" content="長泉町 生成AI活用セミナー">
+  <meta property="og:description" content="生成AI、結局うちの会社では何を使えばいいの？ AIを選ぶ前に、自社で最初に任せる仕事を1つ決めます。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/hero.webp">
+  <title>長泉町 生成AI活用セミナー | 後藤将哉</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="ページ上部へ戻る">
+        <span>長泉町</span>
+        <strong>生成AI活用セミナー</strong>
+      </a>
+      <nav class="desktop-nav" aria-label="ページ内メニュー">
+        <a href="#diagnosis">無料診断</a>
+        <a href="#program">内容</a>
+        <a href="#dates">日程・料金</a>
+        <a class="nav-cta" href="#diagnosis">60秒診断</a>
+      </nav>
+      <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" data-menu-button>
+        <span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" aria-label="スマートフォン用メニュー" data-mobile-nav hidden>
+      <a href="#diagnosis">無料診断</a>
+      <a href="#program">セミナー内容</a>
+      <a href="#dates">日程・料金</a>
+      <a href="#profile">講師</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <img class="hero-image" src="assets/hero.webp" alt="ノートとパソコンを前に、自社の仕事を整理する事業者" width="1920" height="1280" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-inner">
+        <p class="hero-kicker">少人数・実践型 / 長泉町</p>
+        <h1>生成AI、結局うちの会社では<br>何を使えばいいの？</h1>
+        <p class="hero-lead">AIを選ぶ前に、<br class="mobile-only">自社で最初に任せる仕事を1つ決める。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#diagnosis">60秒診断を始める</a>
+          <a class="button button-ghost" href="#dates">日程・料金を見て申し込む</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="fact-band" aria-label="開催概要">
+      <div class="fact-grid">
+        <div><span>開催日</span><strong>8月19日・8月30日</strong></div>
+        <div><span>会場</span><strong>長泉町 南部地区センター</strong></div>
+        <div><span>参加費</span><strong>2,000円から</strong></div>
+        <div><span>定員</span><strong>各回10名程度</strong></div>
+      </div>
+    </section>
+
+    <section class="section diagnosis-section" id="diagnosis">
+      <div class="section-inner diagnosis-layout">
+        <div class="diagnosis-intro reveal">
+          <p class="section-label">60秒・無料</p>
+          <h2>まず、自社のAI活用テーマを確認する。</h2>
+          <p>3つの質問から、今の事業でAIへ任せやすい仕事の方向を整理します。結果を見るだけなら、メール登録は必要ありません。</p>
+          <p class="quiet-note">これは性格診断ではありません。セミナーで考えるテーマを見つけるための入口です。</p>
+        </div>
+
+        <div class="diagnosis-tool reveal" data-diagnosis aria-live="polite">
+          <div class="diagnosis-head">
+            <span data-diagnosis-status>質問 1 / 3</span>
+            <div class="progress-track" aria-hidden="true"><span data-progress></span></div>
+          </div>
+          <div data-question-view>
+            <p class="question-number" data-question-number>QUESTION 01</p>
+            <h3 data-question-title></h3>
+            <div class="answer-list" data-answer-list></div>
+          </div>
+          <div class="result-view" data-result-view hidden>
+            <p class="result-kicker">あなたの活用テーマ</p>
+            <h3 data-result-title></h3>
+            <p class="result-summary" data-result-summary></p>
+            <div class="result-candidates">
+              <h4>AIへ任せる候補</h4>
+              <ul data-result-candidates></ul>
+            </div>
+            <div class="result-actions">
+              <a class="button button-primary" href="#dates">セミナーで活用テーマを決める</a>
+              <button class="text-button" type="button" data-lead-cta>詳しい結果と次回案内を受け取る</button>
+            </div>
+            <button class="restart-button" type="button" data-restart>もう一度診断する</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section premise-section">
+      <div class="section-inner narrow reveal">
+        <p class="section-label">AI選びの前に</p>
+        <h2>止まっている原因は、<br>プロンプト不足ではないかもしれません。</h2>
+        <div class="statement-copy">
+          <p>ChatGPT。Gemini。Claude。</p>
+          <p>新しいAIが出るたびに試しても、仕事はあまり変わらない。</p>
+          <p>僕自身、便利な機能を追うだけでは、売上にも業務改善にもつながらない場面を何度も見てきました。</p>
+          <p><strong>先に必要なのは、自社の課題を整理し、AIへ任せる仕事を決めることです。</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section program-section" id="program">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="section-label">この2時間でやること</p>
+          <h2>聞いて終わらず、<br>自社で使うところまで整理します。</h2>
+        </div>
+        <div class="program-list">
+          <article class="program-item reveal">
+            <span>01</span>
+            <div>
+              <h3>AI選びの順番を変える</h3>
+              <p>ツールや料金を比べる前に、自社の仕事と課題から考える順番をつかみます。</p>
+            </div>
+          </article>
+          <article class="program-item reveal">
+            <span>02</span>
+            <div>
+              <h3>任せられる仕事を洗い出す</h3>
+              <p>販促、文章、事務、情報整理。日々の仕事からAIに渡せる候補を見つけます。</p>
+            </div>
+          </article>
+          <article class="program-item reveal">
+            <span>03</span>
+            <div>
+              <h3>最初の1つをその場で試す</h3>
+              <p>生成AIを実際に使い、自社で最初に任せる仕事と次の一歩を決めます。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section outcome-section">
+      <div class="section-inner outcome-layout">
+        <div class="outcome-copy reveal">
+          <p class="section-label">持ち帰るもの</p>
+          <h2>自社で最初に<br>AIへ任せる仕事が1つ決まる。</h2>
+          <p>たくさんの機能を覚える会ではありません。明日から試せる仕事を1つに絞り、AIへ渡すための前提まで整理します。</p>
+        </div>
+        <div class="outcome-notes reveal">
+          <div><span>たとえば</span><strong>毎回ゼロから書いている案内文</strong></div>
+          <div><span>たとえば</span><strong>時間がかかる議事録や報告書</strong></div>
+          <div><span>たとえば</span><strong>整理できていない顧客の質問</strong></div>
+          <div><span>たとえば</span><strong>判断が止まっている事業課題</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section date-section" id="dates">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <p class="section-label">開催日を選ぶ</p>
+          <h2>両日とも同じ内容です。</h2>
+          <p>参加しやすい日程を選んでください。会場参加は各回10名程度です。</p>
+        </div>
+
+        <div class="date-switcher reveal" role="group" aria-label="開催日を選択">
+          <button class="date-option is-active" type="button" data-date-select="20260819" aria-pressed="true">
+            <span>平日昼</span>
+            <strong>8月19日（水）</strong>
+            <small>13:30から15:30</small>
+          </button>
+          <button class="date-option" type="button" data-date-select="20260830" aria-pressed="false">
+            <span>日曜夜</span>
+            <strong>8月30日（日）</strong>
+            <small>18:00から20:00</small>
+          </button>
+        </div>
+
+        <div class="selected-date reveal" aria-live="polite">
+          選択中: <strong data-selected-date-label>8月19日（水）13:30から15:30</strong>
+        </div>
+
+        <div class="price-list">
+          <article class="price-item reveal">
+            <div class="price-main">
+              <p>会場参加</p>
+              <strong>3,000<small>円</small></strong>
+            </div>
+            <ul>
+              <li>会場での実践ワーク</li>
+              <li>質問・相談時間</li>
+              <li>ノートPC推奨</li>
+            </ul>
+            <button class="button button-dark purchase-button" type="button" data-plan="venue">会場参加で申し込む</button>
+          </article>
+          <article class="price-item reveal">
+            <div class="price-main">
+              <p>アーカイブ視聴</p>
+              <strong>2,000<small>円</small></strong>
+            </div>
+            <ul>
+              <li>後日、録画を視聴</li>
+              <li>場所を選ばず参加</li>
+              <li>公開日は申込ページに記載</li>
+            </ul>
+            <button class="button button-dark purchase-button" type="button" data-plan="archive">アーカイブを申し込む</button>
+          </article>
+          <article class="price-item price-item-featured reveal">
+            <div class="price-main">
+              <p>会場参加 + アーカイブ</p>
+              <strong>4,000<small>円</small></strong>
+            </div>
+            <ul>
+              <li>会場での実践ワーク</li>
+              <li>質問・相談時間</li>
+              <li>後日、録画を見直せる</li>
+            </ul>
+            <button class="button button-primary purchase-button" type="button" data-plan="venueArchive">会場とアーカイブを申し込む</button>
+          </article>
+        </div>
+
+        <div class="venue-note reveal">
+          <div>
+            <span>会場</span>
+            <strong>長泉町 南部地区センター 会議室A/B</strong>
+          </div>
+          <p>フリーWi-Fiあり。利用には事前登録が必要です。テザリングも利用できます。飲食可、ゴミは各自でお持ち帰りください。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section profile-section" id="profile">
+      <div class="section-inner profile-layout">
+        <div class="profile-image-wrap reveal">
+          <img src="assets/masaya-goto.webp" alt="講師 後藤将哉" width="900" height="1125" loading="lazy">
+        </div>
+        <div class="profile-copy reveal">
+          <p class="section-label">講師</p>
+          <h2>後藤将哉</h2>
+          <p class="profile-role">商品企画・販促・業務改善・AI活用支援</p>
+          <p>生成AIを、便利な文章作成ツールとしてだけではなく、課題整理、商品設計、販促、業務改善へつなげる実務で活用しています。</p>
+          <p>今回のセミナーでは、特定のAIをすすめることから始めません。参加者の仕事を聞きながら、何をAIへ任せると前に進みやすいかを一緒に整理します。</p>
+          <p class="profile-note">本企画は後藤将哉個人の活動です。長泉町商工会の主催・後援事業ではありません。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fit-section">
+      <div class="section-inner fit-layout">
+        <div class="fit-block reveal">
+          <p class="section-label">こんな方へ</p>
+          <h2>参加しやすい方</h2>
+          <ul class="check-list">
+            <li>生成AIを使った方がよいとは思っている</li>
+            <li>どのAIを選ぶかで止まっている</li>
+            <li>試したが、仕事の成果につながっていない</li>
+            <li>自社の何をAIへ任せるべきか整理したい</li>
+          </ul>
+        </div>
+        <div class="fit-block fit-block-muted reveal">
+          <p class="section-label">今回扱わないこと</p>
+          <h2>この会の範囲外</h2>
+          <ul class="plain-list">
+            <li>特定ツールの機能だけを網羅する講座</li>
+            <li>高度なプログラミングやシステム開発</li>
+            <li>AIを使えば必ず売上が上がるという話</li>
+            <li>大量のプロンプト集を持ち帰るだけの会</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="section-inner faq-layout">
+        <div class="section-heading reveal">
+          <p class="section-label">よくあるご質問</p>
+          <h2>参加前に<br>確認しておきたいこと。</h2>
+        </div>
+        <div class="faq-list reveal">
+          <details>
+            <summary>生成AIを使ったことがなくても参加できますか？</summary>
+            <p>参加できます。基本操作だけを長く説明する会ではありませんが、初めての方でも進められるように当日サポートします。</p>
+          </details>
+          <details>
+            <summary>パソコンは必要ですか？</summary>
+            <p>ノートPCを推奨します。タブレットやスマートフォンでも参加できます。筆記用具とノートまたはメモ帳もお持ちください。</p>
+          </details>
+          <details>
+            <summary>どの生成AIを準備すればよいですか？</summary>
+            <p>普段使っているものがあれば、そのままで構いません。使っていない方には、当日取り組みやすい方法をご案内します。</p>
+          </details>
+          <details>
+            <summary>会場参加とアーカイブの違いは何ですか？</summary>
+            <p>会場では実際に手を動かし、その場で質問できます。アーカイブは後日、ご自身の時間で録画を視聴する参加方法です。</p>
+          </details>
+          <details>
+            <summary>一人で参加しても大丈夫ですか？</summary>
+            <p>大丈夫です。少人数で、自社の仕事を整理する時間を中心に進めます。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <img src="assets/hero.webp" alt="" width="1920" height="1280" loading="lazy">
+      <div class="final-cta-shade"></div>
+      <div class="final-cta-inner reveal">
+        <p class="section-label">最初の一歩</p>
+        <h2>どのAIを使うかより、<br>何を任せるかを決める。</h2>
+        <p>まずは60秒診断で、自社のAI活用テーマを確認してください。</p>
+        <div class="final-actions">
+          <a class="button button-primary" href="#diagnosis">無料診断を始める</a>
+          <a class="button button-ghost" href="#dates">開催日と参加方法を見る</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>長泉町 生成AI活用セミナー</strong>
+        <p>主催: 後藤将哉</p>
+      </div>
+      <nav aria-label="法務情報">
+        <a href="https://sub.masaya-goto.com/p/privacy_policy_sushi" target="_blank" rel="noopener">プライバシーポリシー</a>
+        <a href="https://sub.masaya-goto.com/p/sctl_sushi" target="_blank" rel="noopener">特定商取引法に基づく表記</a>
+      </nav>
+      <small>Copyright &copy; Masaya Goto</small>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" data-toast hidden></div>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
