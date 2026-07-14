@@ -182,8 +182,8 @@
       button.setAttribute("aria-pressed", String(selected));
     });
     const labels = {
-      "20260819": "8月19日（水）13:30から15:30",
-      "20260830": "8月30日（日）18:00から20:00"
+      "20260819": "8月19日（水）13:30-15:30",
+      "20260830": "8月30日（日）18:00-20:00"
     };
     document.querySelector("[data-selected-date-label]").textContent = labels[dateKey];
     track("date_select", { event_date: dateKey });

@@ -262,13 +262,16 @@ ul { margin-top: 0; }
 .outcome-notes strong { color: var(--ink); font-size: 14px; font-weight: 500; }
 
 .date-section { background: var(--paper); }
+.date-meta { display: flex; flex-wrap: wrap; gap: 4px 24px; color: var(--muted); }
+.date-meta p { margin-bottom: 0; font-size: 14px; }
 .date-switcher { max-width: 760px; margin-bottom: 18px; padding: 5px; display: grid; grid-template-columns: 1fr 1fr; gap: 5px; background: var(--paper-deep); border-radius: 12px; }
 .date-option { min-height: 116px; padding: 18px; color: var(--muted); background: transparent; border: 0; border-radius: var(--radius); cursor: pointer; text-align: left; transition: background 200ms ease, box-shadow 200ms ease, color 200ms ease; }
 .date-option.is-active { color: var(--ink); background: var(--white); box-shadow: 0 8px 24px rgba(62, 62, 60, 0.08); }
 .date-option span,
 .date-option small { display: block; font-size: 11px; }
+.date-option small { color: var(--text); font-size: 13px; }
 .date-option strong { display: block; margin: 7px 0 2px; color: var(--ink-strong); font-family: var(--serif); font-size: 20px; font-weight: 500; }
-.selected-date { margin-bottom: 35px; color: var(--muted); font-size: 12px; }
+.selected-date { margin-bottom: 35px; color: var(--muted); font-size: 13px; }
 .selected-date strong { color: var(--accent); font-weight: 500; }
 .price-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .price-item { position: relative; min-height: 430px; padding: 30px 26px; display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); transition: transform 250ms ease, box-shadow 250ms ease, border-color 250ms ease; }

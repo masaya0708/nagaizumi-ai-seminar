@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260714-funnel2">
+  <link rel="stylesheet" href="styles.css?v=20260714-dates2">
 </head>
 <body>
   <a class="skip-link" href="#main">本文へ移動</a>
@@ -60,7 +60,7 @@
 
     <section class="fact-band" aria-label="開催概要">
       <div class="fact-grid">
-        <div><span>開催日</span><strong>8月19日・8月30日</strong></div>
+        <div><span>開催日</span><strong>8月19日（水）・8月30日（日）</strong></div>
         <div><span>会場</span><strong>長泉町 南部地区センター</strong></div>
         <div><span>参加費</span><strong>2,000円から</strong></div>
         <div><span>定員</span><strong>各回10名程度</strong></div>
@@ -174,25 +174,28 @@
       <div class="section-inner">
         <div class="section-heading reveal">
           <p class="section-label">開催日を選ぶ</p>
-          <h2>両日とも同じ内容です。</h2>
-          <p>参加しやすい日程を選んでください。会場参加は各回10名程度です。</p>
+          <h2>開催日を選ぶ</h2>
+          <div class="date-meta">
+            <p>※両日とも同じ内容です</p>
+            <p>定員：各回10名程度</p>
+          </div>
         </div>
 
         <div class="date-switcher reveal" role="group" aria-label="開催日を選択">
           <button class="date-option is-active" type="button" data-date-select="20260819" aria-pressed="true">
             <span>平日昼</span>
             <strong>8月19日（水）</strong>
-            <small>13:30から15:30</small>
+            <small>13:30-15:30</small>
           </button>
           <button class="date-option" type="button" data-date-select="20260830" aria-pressed="false">
             <span>日曜夜</span>
             <strong>8月30日（日）</strong>
-            <small>18:00から20:00</small>
+            <small>18:00-20:00</small>
           </button>
         </div>
 
         <div class="selected-date reveal" aria-live="polite">
-          選択中: <strong data-selected-date-label>8月19日（水）13:30から15:30</strong>
+          選択中: <strong data-selected-date-label>8月19日（水）13:30-15:30</strong>
         </div>
 
         <div class="price-list">
@@ -253,7 +256,7 @@
       <div class="section-inner">
         <div class="section-heading reveal">
           <p class="section-label">会場・アクセス</p>
-          <h2>長泉町 南部地区センターで開催します。</h2>
+          <h2>長泉町 南部地区センター</h2>
         </div>
         <p class="parking-alert reveal"><span>駐車場について</span><strong>お車でお越しの方は、必ず第2駐車場をご利用ください。</strong></p>
         <div class="venue-layout">
@@ -380,6 +383,6 @@
 
   <div class="toast" role="status" aria-live="polite" data-toast hidden></div>
   <script src="config.js"></script>
-  <script src="app.js?v=20260714-funnel2"></script>
+  <script src="app.js?v=20260714-dates2"></script>
 </body>
 </html>
