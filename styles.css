@@ -515,6 +515,36 @@ ul { margin-top: 0; }
 .venue-note strong { color: var(--ink); }
 .venue-note p { margin-bottom: 0; font-size: 13px; }
 
+.venue-section { background: var(--white); }
+.parking-alert {
+  margin: -8px 0 36px;
+  padding: 18px 22px;
+  color: var(--white);
+  background: #ba4035;
+  font-size: 15px;
+}
+.parking-alert span { display: block; margin-bottom: 5px; color: rgba(255, 255, 255, 0.76); font-size: 11px; font-weight: 800; }
+.parking-alert strong { color: var(--white); }
+.venue-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
+  gap: 36px;
+  align-items: start;
+}
+.venue-photo,
+.venue-map-wrap {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+.venue-photo { max-width: 380px; }
+.venue-photo img,
+.venue-map-wrap img { display: block; width: 100%; }
+.venue-photo img { aspect-ratio: 3 / 2; object-fit: cover; }
+.venue-photo figcaption { padding: 12px 14px; color: var(--muted); font-size: 12px; }
+.venue-map-wrap { padding: 10px; background: #f4f1ea; }
+
 .profile-section { color: var(--white); background: var(--moss); }
 .profile-layout {
   display: grid;
@@ -524,7 +554,7 @@ ul { margin-top: 0; }
 }
 
 .profile-image-wrap { overflow: hidden; border-radius: 8px; }
-.profile-image-wrap img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; }
+.profile-image-wrap img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; object-position: 34% center; }
 .profile-section h2 { margin-bottom: 6px; color: var(--white); font-size: 46px; }
 .profile-role { margin-bottom: 28px; color: #f4d98a; font-size: 13px; font-weight: 700; }
 .profile-copy > p:not(.section-label):not(.profile-role):not(.profile-note) { color: rgba(255, 255, 255, 0.86); }
@@ -660,7 +690,8 @@ ul { margin-top: 0; }
   .diagnosis-layout,
   .outcome-layout,
   .profile-layout,
-  .faq-layout { grid-template-columns: 1fr; gap: 48px; }
+  .faq-layout,
+  .venue-layout { grid-template-columns: 1fr; gap: 48px; }
   .diagnosis-intro { padding-top: 0; }
   .outcome-notes { max-width: 720px; }
   .price-list { grid-template-columns: 1fr; }
@@ -712,6 +743,7 @@ ul { margin-top: 0; }
   .date-switcher { grid-template-columns: 1fr; }
   .date-option { min-height: 106px; }
   .venue-note { grid-template-columns: 1fr; gap: 14px; }
+  .parking-alert { margin-bottom: 28px; padding: 16px; font-size: 14px; }
   .profile-layout { gap: 36px; }
   .profile-image-wrap { max-width: 440px; }
   .profile-section h2 { font-size: 36px; }

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="map-title map-desc">
+  <title id="map-title">長泉町南部地区センターと第2駐車場の案内図</title>
+  <desc id="map-desc">南部地区センターの南西に第2駐車場があり、赤い矢印が会場入口への経路を示しています。</desc>
+  <rect width="720" height="560" fill="#f4f1ea"/>
+  <g fill="none" stroke="#6d706b" stroke-width="3">
+    <path d="M0 105H720"/>
+    <path d="M0 150H720"/>
+    <path d="M94 0V560"/>
+    <path d="M126 0V560"/>
+    <path d="M552 0V560"/>
+    <path d="M612 0V560"/>
+  </g>
+  <g fill="#fff" stroke="#4c504c" stroke-width="3">
+    <rect x="154" y="23" width="116" height="82"/>
+    <rect x="294" y="151" width="111" height="84"/>
+    <rect x="440" y="151" width="116" height="159"/>
+    <rect x="343" y="255" width="91" height="38"/>
+  </g>
+  <g font-family="'Noto Sans JP', sans-serif" fill="#272a27">
+    <text x="212" y="57" font-size="21" text-anchor="middle">竹原公民館</text>
+    <text x="350" y="180" font-size="17" text-anchor="middle">長泉町</text>
+    <text x="350" y="204" font-size="17" text-anchor="middle">南部地区センター</text>
+    <text x="498" y="197" font-size="22" text-anchor="middle">五味八珍さん</text>
+    <text x="388" y="280" font-size="14" text-anchor="middle">防災倉庫</text>
+  </g>
+  <path d="M150 305H320V470H164L123 395Z" fill="#7c817c" stroke="#3f4440" stroke-width="3"/>
+  <text x="228" y="402" font-family="'Noto Sans JP', sans-serif" font-size="34" font-weight="700" fill="#fff" text-anchor="middle">第2駐車場</text>
+  <path d="M0 514L720 333" stroke="#202420" stroke-width="44"/>
+  <path d="M0 514L720 333" stroke="#f4f1ea" stroke-width="3" stroke-dasharray="64 18"/>
+  <g stroke="#4c504c" stroke-width="2">
+    <path d="M120 106v44M105 106v44M90 106v44"/>
+    <path d="M565 106v44M580 106v44M595 106v44"/>
+  </g>
+  <path d="M307 313V248" stroke="#df463b" stroke-width="12"/>
+  <path d="M307 248l-15 22h30z" fill="#df463b"/>
+  <text x="332" y="305" font-family="'Noto Sans JP', sans-serif" font-size="16" fill="#272a27">会場入口</text>
+  <g transform="translate(645 162)" stroke="#272a27" stroke-width="2" fill="none">
+    <path d="M18 54V0M0 27H36"/>
+    <path d="M18 0l-5 12h10z" fill="#272a27"/>
+  </g>
+  <text x="663" y="153" font-family="sans-serif" font-size="16" text-anchor="middle">N</text>
+  <text x="366" y="517" font-family="'Noto Sans JP', sans-serif" font-size="14" fill="#272a27" text-anchor="middle">踏切付近</text>
+  <rect x="1.5" y="1.5" width="717" height="557" fill="none" stroke="#272a27" stroke-width="3"/>
+</svg>
