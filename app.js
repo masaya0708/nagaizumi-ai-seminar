@@ -200,6 +200,15 @@
     showToast("申込ページは、UTAGEの商品URL接続後に利用できます。");
   }
 
+  function openLine() {
+    track("line_cta_click", { placement: "series" });
+    if (config.lineUrl) {
+      window.location.href = config.lineUrl;
+      return;
+    }
+    showToast("LINE公式アカウントは、開設後に接続します。");
+  }
+
   function setupMenu() {
     const button = document.querySelector("[data-menu-button]");
     const menu = document.querySelector("[data-mobile-nav]");
@@ -241,6 +250,7 @@
     button.addEventListener("click", () => selectDate(button.dataset.dateSelect));
   });
   document.querySelector("[data-checkout]")?.addEventListener("click", openPurchase);
+  document.querySelector("[data-line-cta]")?.addEventListener("click", openLine);
 
   setupMenu();
   setupReveal();

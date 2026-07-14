@@ -261,6 +261,13 @@ ul { margin-top: 0; }
 .outcome-notes span { color: var(--accent); font-size: 10px; letter-spacing: 0.12em; }
 .outcome-notes strong { color: var(--ink); font-size: 14px; font-weight: 500; }
 
+.section.series-section { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.series-layout { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 80px; align-items: start; }
+.series-heading h2 { margin-bottom: 0; }
+.series-copy { padding-top: 39px; }
+.series-copy p { color: var(--muted); }
+.series-copy .button { margin-top: 10px; }
+
 .date-section { background: var(--paper); }
 .date-meta { display: flex; flex-wrap: wrap; gap: 4px 24px; color: var(--muted); }
 .date-meta p { margin-bottom: 0; font-size: 14px; }
@@ -387,12 +394,14 @@ ul { margin-top: 0; }
   .fact-grid div:nth-last-child(-n+2) { border-bottom: 0; }
   .diagnosis-layout,
   .outcome-layout,
+  .series-layout,
   .profile-layout,
   .faq-layout,
   .venue-layout { grid-template-columns: 1fr; gap: 48px; }
   .diagnosis-intro { padding-top: 0; }
   .diagnosis-tool { max-width: 720px; }
   .outcome-notes { max-width: 720px; }
+  .series-copy { max-width: 720px; padding-top: 0; }
   .price-list { grid-template-columns: 1fr; }
   .price-item { min-height: 0; }
   .price-main p { min-height: 0; }
