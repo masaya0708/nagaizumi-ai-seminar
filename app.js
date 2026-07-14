@@ -189,10 +189,10 @@
     track("date_select", { event_date: dateKey });
   }
 
-  function openPurchase(plan) {
+  function openPurchase() {
     const dateKey = state.selectedDate;
-    const url = config.purchaseUrls?.[dateKey]?.[plan];
-    track("checkout_start", { event_date: dateKey, participation_plan: plan });
+    const url = config.purchaseUrls?.[dateKey];
+    track("checkout_start", { event_date: dateKey });
     if (url) {
       window.location.href = url;
       return;
@@ -240,9 +240,7 @@
   document.querySelectorAll("[data-date-select]").forEach((button) => {
     button.addEventListener("click", () => selectDate(button.dataset.dateSelect));
   });
-  document.querySelectorAll("[data-plan]").forEach((button) => {
-    button.addEventListener("click", () => openPurchase(button.dataset.plan));
-  });
+  document.querySelector("[data-checkout]")?.addEventListener("click", openPurchase);
 
   setupMenu();
   setupReveal();

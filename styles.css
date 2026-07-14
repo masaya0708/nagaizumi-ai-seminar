@@ -274,7 +274,7 @@ ul { margin-top: 0; }
 .selected-date { margin-bottom: 35px; color: var(--muted); font-size: 13px; }
 .selected-date strong { color: var(--accent); font-weight: 500; }
 .price-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
-.price-item { position: relative; min-height: 430px; padding: 30px 26px; display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); transition: transform 250ms ease, box-shadow 250ms ease, border-color 250ms ease; }
+.price-item { position: relative; min-height: 340px; padding: 30px 26px; display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); transition: transform 250ms ease, box-shadow 250ms ease, border-color 250ms ease; }
 .price-item:hover { border-color: rgba(94, 115, 102, 0.28); box-shadow: 0 12px 36px rgba(122, 143, 130, 0.1); transform: translateY(-3px); }
 .price-item-featured { border-color: rgba(94, 115, 102, 0.58); box-shadow: 0 12px 36px rgba(122, 143, 130, 0.13); }
 .price-badge { position: absolute; top: 0; right: 20px; padding: 5px 13px 6px; color: var(--white); background: var(--accent); border-radius: 0 0 6px 6px; font-size: 10px; font-weight: 500; letter-spacing: 0.1em; }
@@ -285,6 +285,8 @@ ul { margin-top: 0; }
 .price-item ul { flex: 1; padding-left: 1.2em; color: var(--muted); font-size: 13px; }
 .price-item li { margin-bottom: 8px; }
 .purchase-button { width: 100%; font-size: 13px; }
+.checkout-action { width: min(520px, 100%); margin: 28px auto 0; text-align: center; }
+.checkout-action p { margin-bottom: 12px; color: var(--muted); font-size: 12px; }
 .venue-note { margin-top: 42px; padding: 27px 0; display: grid; grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1.2fr); gap: 40px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .venue-note span { display: block; color: var(--accent); font-size: 10px; }
 .venue-note strong { color: var(--ink-strong); font-family: var(--serif); font-weight: 500; }

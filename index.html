@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260714-dates2">
+  <link rel="stylesheet" href="styles.css?v=20260714-checkout2">
 </head>
 <body>
   <a class="skip-link" href="#main">本文へ移動</a>
@@ -209,7 +209,6 @@
               <li>質問・相談時間</li>
               <li>ノートPC推奨</li>
             </ul>
-            <button class="button button-dark purchase-button" type="button" data-plan="venue">会場参加で申し込む</button>
           </article>
           <article class="price-item reveal">
             <div class="price-main">
@@ -221,7 +220,6 @@
               <li>場所を選ばず参加</li>
               <li>公開日は申込ページに記載</li>
             </ul>
-            <button class="button button-dark purchase-button" type="button" data-plan="archive">アーカイブを申し込む</button>
           </article>
           <article class="price-item price-item-featured reveal">
             <span class="price-badge">おすすめ</span>
@@ -234,8 +232,12 @@
               <li>質問・相談時間</li>
               <li>会場で整理し、後日録画で見直せる</li>
             </ul>
-            <button class="button button-primary purchase-button" type="button" data-plan="venueArchive">会場とアーカイブを申し込む</button>
           </article>
+        </div>
+
+        <div class="checkout-action reveal">
+          <p>選択した開催日の申込ページで、参加方法を選べます。</p>
+          <button class="button button-primary purchase-button" type="button" data-checkout>この日程の参加方法を選ぶ</button>
         </div>
 
         <div class="venue-note reveal">
@@ -382,7 +384,7 @@
   </footer>
 
   <div class="toast" role="status" aria-live="polite" data-toast hidden></div>
-  <script src="config.js"></script>
-  <script src="app.js?v=20260714-dates2"></script>
+  <script src="config.js?v=20260714-checkout2"></script>
+  <script src="app.js?v=20260714-checkout2"></script>
 </body>
 </html>
