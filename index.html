@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260714-profile1">
+  <link rel="stylesheet" href="styles.css?v=20260714-funnel2">
 </head>
 <body>
   <a class="skip-link" href="#main">本文へ移動</a>
@@ -72,7 +72,7 @@
         <div class="diagnosis-intro reveal">
           <p class="section-label">60秒・無料</p>
           <h2>まず、自社のAI活用テーマを確認する。</h2>
-          <p>3つの質問から、今の事業でAIへ任せやすい仕事の方向を整理します。結果を見るだけなら、メール登録は必要ありません。</p>
+          <p>仕事で優先したい成果、詰まっている場面、時間を取られている理由の3つから、AIへ任せやすい仕事の入口を整理します。結果を見るだけなら、メール登録は必要ありません。</p>
           <p class="quiet-note">これは性格診断ではありません。セミナーで考えるテーマを見つけるための入口です。</p>
         </div>
 
@@ -90,13 +90,18 @@
             <p class="result-kicker">あなたの活用テーマ</p>
             <h3 data-result-title></h3>
             <p class="result-summary" data-result-summary></p>
+            <p class="result-goal" data-result-goal></p>
             <div class="result-candidates">
               <h4>AIへ任せる候補</h4>
               <ul data-result-candidates></ul>
             </div>
+            <div class="result-first-step">
+              <h4>最初の一歩</h4>
+              <p data-result-first-step></p>
+            </div>
             <div class="result-actions">
               <a class="button button-primary" href="#dates">セミナーで活用テーマを決める</a>
-              <button class="text-button" type="button" data-lead-cta>詳しい結果と次回案内を受け取る</button>
+              <button class="text-button" type="button" data-lead-cta>タイプ別「AIに任せる仕事の整理シート」を受け取る</button>
             </div>
             <button class="restart-button" type="button" data-restart>もう一度診断する</button>
           </div>
@@ -216,6 +221,7 @@
             <button class="button button-dark purchase-button" type="button" data-plan="archive">アーカイブを申し込む</button>
           </article>
           <article class="price-item price-item-featured reveal">
+            <span class="price-badge">おすすめ</span>
             <div class="price-main">
               <p>会場参加 + アーカイブ</p>
               <strong>4,000<small>円</small></strong>
@@ -223,7 +229,7 @@
             <ul>
               <li>会場での実践ワーク</li>
               <li>質問・相談時間</li>
-              <li>後日、録画を見直せる</li>
+              <li>会場で整理し、後日録画で見直せる</li>
             </ul>
             <button class="button button-primary purchase-button" type="button" data-plan="venueArchive">会場とアーカイブを申し込む</button>
           </article>
@@ -232,9 +238,13 @@
         <div class="venue-note reveal">
           <div>
             <span>会場</span>
-            <strong>長泉町 南部地区センター 会議室A/B</strong>
+            <strong>長泉町 南部地区センター 会議室A</strong>
           </div>
-          <p>フリーWi-Fiあり。利用には事前登録が必要です。テザリングも利用できます。飲食可、ゴミは各自でお持ち帰りください。</p>
+          <ul>
+            <li>フリーWi-Fiあり。※利用には事前登録が必要</li>
+            <li>飲食可</li>
+            <li>ゴミは各自でお持ち帰りください</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -252,7 +262,7 @@
             <figcaption>長泉町 南部地区センター</figcaption>
           </figure>
           <div class="venue-map-wrap reveal">
-            <img src="assets/venue-map.svg" alt="長泉町南部地区センターと第2駐車場の案内図。赤い矢印が会場入口への経路を示しています。" width="720" height="560" loading="lazy">
+            <img src="assets/venue-map-v2.webp" alt="長泉町南部地区センターと第2駐車場の案内図。赤い矢印が会場入口への経路を示しています。" width="1343" height="1174" loading="lazy">
           </div>
         </div>
       </div>
@@ -361,8 +371,8 @@
         <p>主催: 後藤将哉</p>
       </div>
       <nav aria-label="法務情報">
-        <a href="https://sub.masaya-goto.com/p/privacy_policy_sushi" target="_blank" rel="noopener">プライバシーポリシー</a>
-        <a href="https://sub.masaya-goto.com/p/sctl_sushi" target="_blank" rel="noopener">特定商取引法に基づく表記</a>
+        <a href="https://sub.masaya-goto.com/p/privacy_policy" target="_blank" rel="noopener">プライバシーポリシー</a>
+        <a href="https://sub.masaya-goto.com/p/sctl" target="_blank" rel="noopener">特定商取引法に基づく表記</a>
       </nav>
       <small>Copyright &copy; Masaya Goto</small>
     </div>
@@ -370,6 +380,6 @@
 
   <div class="toast" role="status" aria-live="polite" data-toast hidden></div>
   <script src="config.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=20260714-funnel2"></script>
 </body>
 </html>
