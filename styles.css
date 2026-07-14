@@ -297,12 +297,17 @@ ul { margin-top: 0; }
 .venue-map-wrap { padding: 10px; }
 
 .profile-section { color: var(--text); background: var(--paper); }
-.profile-layout { display: grid; grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr); gap: 72px; align-items: center; }
-.profile-image-wrap { overflow: hidden; border-radius: var(--radius); box-shadow: var(--shadow); }
-.profile-image-wrap img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; object-position: 34% center; filter: saturate(0.82) contrast(0.96); }
+.profile-layout { display: grid; grid-template-columns: minmax(240px, 300px) minmax(0, 1fr); gap: 72px; align-items: start; }
+.profile-image-wrap { width: 100%; max-width: 300px; margin-top: 16px; overflow: hidden; border-radius: var(--radius); box-shadow: 0 10px 28px rgba(62, 62, 60, 0.09); }
+.profile-image-wrap img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: 34% center; filter: saturate(0.82) contrast(0.96); }
 .profile-section h2 { margin-bottom: 6px; color: var(--ink-strong); font-size: 43px; }
 .profile-role { margin-bottom: 28px; color: var(--accent); font-size: 12px; font-weight: 500; letter-spacing: 0.1em; }
 .profile-copy > p:not(.section-label):not(.profile-role):not(.profile-note) { color: var(--muted); }
+.profile-proof { margin: 28px 0; padding: 22px 24px; background: var(--paper-deep); border-left: 2px solid var(--accent); }
+.profile-proof p { color: var(--muted); }
+.profile-proof .profile-proof-label { margin-bottom: 10px; color: var(--accent-dark); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; }
+.profile-proof ul { margin-bottom: 0; padding-left: 1.25em; color: var(--ink); }
+.profile-proof li { margin-top: 7px; font-size: 14px; font-weight: 500; }
 .profile-note { margin-top: 27px; padding-top: 18px; color: var(--muted); border-top: 1px solid var(--line); font-size: 11px; }
 
 .fit-section { background: var(--paper-deep); }
@@ -425,8 +430,9 @@ ul { margin-top: 0; }
   .venue-note { grid-template-columns: 1fr; gap: 14px; }
   .parking-alert { margin-bottom: 28px; padding: 16px; font-size: 13px; }
   .profile-layout { gap: 36px; }
-  .profile-image-wrap { max-width: 440px; }
+  .profile-image-wrap { max-width: 280px; margin-top: 0; }
   .profile-section h2 { font-size: 36px; }
+  .profile-proof { padding: 20px 18px; }
   .fit-layout { grid-template-columns: 1fr; }
   .fit-block { padding: 25px 20px; }
   .fit-block h2 { font-size: 24px; }
