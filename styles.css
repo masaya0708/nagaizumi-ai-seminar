@@ -281,6 +281,47 @@ ul { margin-top: 0; }
 .series-copy { padding-top: 39px; }
 .series-copy p { color: var(--muted); }
 .series-copy .button { margin-top: 10px; }
+.series-plan {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+.series-plan div {
+  min-height: 176px;
+  padding: 22px 20px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: rgba(248, 246, 242, 0.58);
+}
+.series-plan span {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+}
+.series-plan strong {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--ink-strong);
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.65;
+}
+.series-plan p { margin-bottom: 0; color: var(--muted); font-size: 13px; line-height: 1.85; }
+.series-note {
+  grid-column: 1 / -1;
+  padding: 14px 18px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  background: var(--white);
+  font-size: 12px;
+}
 
 .date-section { background: var(--paper); }
 .date-meta { display: flex; flex-wrap: wrap; gap: 4px 24px; color: var(--muted); }
@@ -351,6 +392,7 @@ ul { margin-top: 0; }
 .fit-block { padding: 32px; background: var(--white); border-radius: var(--radius); }
 .fit-block-muted { background: rgba(255, 255, 255, 0.6); }
 .fit-block h2 { font-size: 26px; }
+.fit-subnote { margin: -8px 0 12px; color: var(--muted); font-size: 12px; letter-spacing: 0.08em; }
 .check-list,
 .plain-list { margin-bottom: 0; padding: 0; list-style: none; }
 .check-list li,
@@ -419,6 +461,7 @@ ul { margin-top: 0; }
   .diagnosis-tool { max-width: 720px; }
   .outcome-notes { max-width: 720px; }
   .series-copy { max-width: 720px; padding-top: 0; }
+  .series-plan { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .price-list { grid-template-columns: 1fr; }
   .price-item { min-height: 0; }
   .price-main p { min-height: 0; }
@@ -477,6 +520,9 @@ ul { margin-top: 0; }
   .fit-layout { grid-template-columns: 1fr; }
   .fit-block { padding: 25px 20px; }
   .fit-block h2 { font-size: 24px; }
+  .series-plan { grid-template-columns: 1fr; }
+  .series-plan div { min-height: 0; padding: 19px 18px; }
+  .series-plan strong { font-size: 17px; }
   .faq-layout { gap: 20px; }
   .faq-list summary { padding-right: 38px; font-size: 14px; }
   .faq-list details p { padding-right: 0; font-size: 13px; }
