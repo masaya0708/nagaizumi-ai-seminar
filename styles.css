@@ -238,7 +238,8 @@ ul { margin-top: 0; }
 .result-first-step { margin: -8px 0 26px; padding: 0 3px 21px; border-bottom: 1px solid var(--line); }
 .result-first-step p { margin-bottom: 0; color: var(--muted); font-size: 14px; }
 .result-actions { display: grid; gap: 18px; }
-.result-actions > .button { justify-self: start; }
+.result-actions > .button { width: 100%; justify-self: stretch; }
+.result-seminar-button { min-height: 49px; }
 .result-resource {
   padding: 20px 21px 21px;
   background: var(--accent-pale);
