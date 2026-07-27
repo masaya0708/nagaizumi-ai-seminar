@@ -3,7 +3,7 @@ window.NAGAIZUMI_AI_CONFIG = {
   leadFormUrl: "",
   lineUrl: "",
   purchaseUrls: {
-    "20260819": "",
-    "20260830": ""
+    "20260819": "https://sub.masaya-goto.com/p/hqQYFWnFKNgD",
+    "20260830": "https://sub.masaya-goto.com/p/rYNGDi0Jwzbd"
   }
 };
